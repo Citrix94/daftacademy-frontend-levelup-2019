@@ -7,7 +7,13 @@ module.exports = {
         filename: 'main.js',
         path: path.resolve(__dirname, 'dist')
     },
-    plugins: [new HtmlWebpackPlugin()],
+
+    mode: 'development',
+
+    plugins: [new HtmlWebpackPlugin({
+        title: 'Daftacademy FrontEnd Level UP 2019'
+    })],
+
     module: {
         rules: [{
             test: /\.js$/,
