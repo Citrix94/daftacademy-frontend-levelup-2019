@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900|Rochester');
+
+/**Simple colors**/
+
+$color-white: #ffffff;
+$color-black: #000000;
+$color-light-black: rgba(0, 0, 0, 0.2);
+$color-dark-blue: #27354f;
+$color-light-blue:rgba(39, 53, 79, 0.2);
+$color-light-green: #eef8f6;
+$color-light-orange: #ffe1b5;
+
+/** Background colors **/
+
+$color-background-white: $color-white;
+$color-background-light-green: $color-light-green;
+
+/** Border colors **/
+
+$color-border-light-orange: $color-light-orange;
+
+/** Scroll colors **/
+
+$color-scroll-light-blue: $color-light-blue;
+
+/** Text colors **/
+
+$color-text-white: $color-white;
+$color-text-black: $color-black;
+$color-text-light-black: $color-light-black;
+$color-text-dark-blue: $color-dark-blue;
+$color-text-light-blue: $color-light-blue;
+
+/** General Font family and text size properties **/
+
+$font-family-roboto: 'Roboto', sans-serif;
+$font-family-rochester: 'Rochester', cursive;;
+
+$font-size-base: 16px;
+

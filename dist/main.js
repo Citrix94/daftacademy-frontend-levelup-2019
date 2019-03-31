@@ -113,14 +113,12 @@ Object(_js_script_js__WEBPACK_IMPORTED_MODULE_0__["default"])();
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  var _document = document,
-      body = _document.body;
-  var div = document.createElement('div');
-  var h1 = document.createElement('h1');
-  h1.innerText = 'Hello World!';
-  div.appendChild(h1);
-  body.appendChild(div);
+/* harmony default export */ __webpack_exports__["default"] = (function () {// const { body } = document;
+  // const div = document.createElement('div');
+  // const h1 = document.createElement('h1');
+  // h1.innerText = 'Hello World!';
+  // div.appendChild(h1);
+  // body.appendChild(div);
 });
 ;
 
