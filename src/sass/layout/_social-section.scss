@@ -1,0 +1,48 @@
+.social-section {
+    font-size: $font-size-footer-item;
+    font-family: $font-family-roboto;
+    letter-spacing: 1.4px;
+    color: $color-text-light-blue;
+    display: flex;
+    z-index: $zindex-social;
+
+    &__items {
+        display: flex;
+    }
+}
+
+@media (max-width: 540px) {
+    .social-section {
+        margin: 30px 0 0 0;
+    }
+}
+
+.svg-icon {
+    display: block;
+    font-size: 0px;
+    color: $color-text-transparent;
+    width: 16px;
+    height: 16px;
+    margin: 0 0 0 15px;
+    opacity: 0.4;
+    transition: 0.2s;
+
+    &--web {
+        background: url(/img/dribble.svg);
+        background-size: 16px 16px;
+    }
+
+    &--instagram {
+        background: url(/img/instagram.svg);
+        background-size: 16px 16px;
+    }
+
+    &--facebook {
+        background: url(/img/facebook.svg);
+        background-size: 16px 16px;
+    }
+
+    &:hover {
+        opacity: 1;
+    }
+}

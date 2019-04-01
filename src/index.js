@@ -1,4 +1,4 @@
-import main from './js/script.js';
+import './js/mobileMenu.js';
 import './sass/main.scss';
 
-main();
+

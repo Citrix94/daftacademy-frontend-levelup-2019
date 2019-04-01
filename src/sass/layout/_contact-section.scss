@@ -1,0 +1,20 @@
+.contact-section {
+    font-size: $font-size-footer-item;
+    font-family: $font-family-roboto;
+    letter-spacing: 1.4px;
+
+    &__item {
+        &--grey {
+            color: $color-text-light-blue;
+        }
+
+        &--link {
+            color: $color-text-dark-blue;
+            text-decoration: none;
+            transition: 0.2s;
+            &:hover {
+                color: $color-text-light-blue;
+            }
+        }
+    }
+}

@@ -1,0 +1,93 @@
+.page-navigation {
+    &__items {
+        display: flex;
+        padding: 145px 0 0px 0px;
+        max-width: 1200px;
+    }
+
+    &__item {
+        margin: 0 50px 0 0;
+        font-size: $font-size-menu-item;
+        font-family: $font-family-roboto;
+        letter-spacing: 2px;
+
+        &:last-child {
+            margin: 0;
+        }
+    }
+
+    &__link {
+        color: $color-text-light-blue;
+        text-decoration: none;
+        width: $menu-item-width;
+        transition: 0.2s;
+
+        &--active {
+            text-decoration: none;
+            color: $color-text-dark-blue;
+            position: relative;
+
+            &:before {
+                content: "";
+                width: calc(#{$menu-item-width} - 10px);
+                height: 1px;
+                bottom: -2px;
+                background: $color-menu-underline;
+                position: absolute;
+            }
+        }
+
+        &:hover {
+            color: $color-text-dark-blue;
+        }
+    }
+}
+
+@media (max-width: 1300px) {
+    .page-navigation {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100vw;
+        height: 100vh;
+        background: $color-background-light-green;
+        z-index: $zindex-mobile-menu;
+
+        &__items {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            padding: 0;
+        }
+
+        &__item {
+            margin: 15px;
+            font-size: $font-size-menu-item-mobile;
+            font-weight: 600;
+
+            &:last-child {
+                margin: 15px;
+            }
+        }
+
+        &__link {
+            &:before {
+                width: 0;
+                height: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 540px) {
+
+    .page-navigation {
+        &__item {
+            font-size: $font-size-menu-item-mobile-small;
+        }
+    }
+}

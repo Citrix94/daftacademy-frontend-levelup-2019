@@ -4,11 +4,13 @@
 
 $color-white: #ffffff;
 $color-black: #000000;
-$color-light-black: rgba(0, 0, 0, 0.2);
-$color-dark-blue: #27354f;
-$color-light-blue:rgba(39, 53, 79, 0.2);
+$color-black-20: rgba(0, 0, 0, 0.2);
+$color-blue: #27354f;
+$color-blue-40:rgba(39, 53, 79, 0.4);
+$color-blue-20:rgba(39, 53, 79, 0.2);
 $color-light-green: #eef8f6;
 $color-light-orange: #ffe1b5;
+$color-transparent: rgba(0, 0, 0, 0);
 
 /** Background colors **/
 
@@ -17,24 +19,46 @@ $color-background-light-green: $color-light-green;
 
 /** Border colors **/
 
+$color-border-dark-blue: $color-blue;
+$color-border-transparent: $color-transparent;
 $color-border-light-orange: $color-light-orange;
 
 /** Scroll colors **/
 
-$color-scroll-light-blue: $color-light-blue;
+$color-scroll-light-blue: $color-blue-20;
+
+/** Menu undeline colors **/
+
+$color-menu-underline: $color-blue;
 
 /** Text colors **/
 
 $color-text-white: $color-white;
 $color-text-black: $color-black;
-$color-text-light-black: $color-light-black;
-$color-text-dark-blue: $color-dark-blue;
-$color-text-light-blue: $color-light-blue;
+$color-text-light-black: $color-black-20;
+$color-text-dark-blue: $color-blue;
+$color-text-light-blue: $color-blue-40;
+$color-text-transparent: $color-transparent;
 
 /** General Font family and text size properties **/
 
 $font-family-roboto: 'Roboto', sans-serif;
-$font-family-rochester: 'Rochester', cursive;;
+$font-family-rochester: 'Rochester', cursive;
 
-$font-size-base: 16px;
+$font-size-logo: 38px;
+$font-size-logo-mobile: 28px;
+$font-size-menu-item: 16px;
+$font-size-menu-item-mobile: 36px;
+$font-size-menu-item-mobile-small: 24px;
+$font-size-main-section-item: 46px;
+$font-size-footer-item: 16px;
 
+/** General width and height properties **/
+
+$menu-item-width: 100%;
+
+/** Global z-indexes **/
+ 
+$zindex-social: 100;
+$zindex-mobile-menu: 110;
+$zindex-mobile-button: 120;

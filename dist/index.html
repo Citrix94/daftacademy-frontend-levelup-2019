@@ -18,32 +18,33 @@
 
             <header class="page-header">
                 <h2 class="screen-reader-only">Logo and navigation</h2>
-                <h3 class="page-header__logo-image">d'inks</h2>
+                <h3 class="page-header__logo-image"><a href="#!" class="page-header__logo-link">d'inks</a></h2>
+                    <div class="mobile-button mobile-button--hamburger"></div>
                     <nav class="page-navigation">
                         <ul class="page-navigation__items">
                             <li class="page-navigation__item">
-                                <a class="page-navigation__item-content">Beer</a>
+                                <a href="#!" class="page-navigation__link page-navigation__link--active">Beer</a>
                             </li>
                             <li class="page-navigation__item">
-                                <a class="page-navigation__item-content">Coffee / Tea</a>
+                                <a href="#!" class="page-navigation__link">Coffee / Tea</a>
                             </li>
                             <li class="page-navigation__item">
-                                <a class="page-navigation__item-content">Cocktail</a>
+                                <a href="#!" class="page-navigation__link">Cocktail</a>
                             </li>
                             <li class="page-navigation__item">
-                                <a class="page-navigation__item-content">Cocoa</a>
+                                <a href="#!" class="page-navigation__link">Cocoa</a>
                             </li>
                             <li class="page-navigation__item">
-                                <a class="page-navigation__item-content">Milk / Float / Shake</a>
+                                <a href="#!" class="page-navigation__link">Milk / Float / Shake</a>
                             </li>
                             <li class="page-navigation__item">
-                                <a class="page-navigation__item-content">Shot</a>
+                                <a href="#!" class="page-navigation__link">Shot</a>
                             </li>
                             <li class="page-navigation__item">
-                                <a class="page-navigation__item-content">Punch / Party Drink</a>
+                                <a href="#!" class="page-navigation__link">Punch / Party Drink</a>
                             </li>
                             <li class="page-navigation__item">
-                                <a class="page-navigation__item-content">Homemade Liqueur</a>
+                                <a href="#!" class="page-navigation__link">Homemade Liqueur</a>
                             </li>
                         </ul>
                     </nav>
@@ -51,13 +52,19 @@
 
             <main class="main-section">
                 <h2 class="screen-reader-only">Gallery of drinks</h2>
-                <ul class="main-section__container">
-                    <li class="main-section__item">Bijou</li>
-                    <li class="main-section__item">Negron</li>
-                    <li class="main-section__item">Mojito</li>
-                    <li class="main-section__item">Texas Rattlesnake</li>
-                    <li class="main-section__item">Egg Nogg</li>
-                    <li class="main-section__item">Zinger</li>
+                <ul class="main-section__container scrollbar">
+                    <li class="main-section__item"><a href="#!" class="main-section__link image image--bijou">Bijou</a></li>
+                    <li class="main-section__item"><a href="#!" class="main-section__link main-section__link--active image image--negron">Negron</a></li>
+                    <li class="main-section__item"><a href="#!" class="main-section__link image image--mojito">Mojito</a></li>
+                    <li class="main-section__item"><a href="#!" class="main-section__link image image--texas">Texas Rattlesnake</a></li>
+                    <li class="main-section__item"><a href="#!" class="main-section__link image image--egg">Egg Nogg</a></li>
+                    <li class="main-section__item"><a href="#!" class="main-section__link image image--zinger">Zinger</a></li>
+                    <li class="main-section__item"><a href="#!" class="main-section__link image image--bijou">Bijou</a></li>
+                    <li class="main-section__item"><a href="#!" class="main-section__link image image--negron">Negron</a></li>
+                    <li class="main-section__item"><a href="#!" class="main-section__link image image--mojito">Mojito</a></li>
+                    <li class="main-section__item"><a href="#!" class="main-section__link image image--texas">Texas Rattlesnake</a></li>
+                    <li class="main-section__item"><a href="#!" class="main-section__link image image--egg">Egg Nogg</a></li>
+                    <li class="main-section__item"><a href="#!" class="main-section__link image image--zinger">Zinger</a></li>
                 </ul>
             </main>
 
@@ -66,14 +73,20 @@
         <footer class="page-footer">
             <h2 class="screen-reader-only">Social media links, and contact infomartion</h2>
             <section class="contact-section">
-                <p>Say hello - hi@dinks.com</p>
+                <p class="contact-secton__item">
+                    <span class="contact-section__item--grey">Say hello -</span>
+                    <a class="contact-section__item--link" href="mailto:hi@dinks.com">hi@dinks.com</a>
+                </p>
             </section>
             <section class="social-section">
                 <p>Follow us</p>
                 <ul class="social-section__items">
-                    <li class="social-section__item">web</li>
-                    <li class="social-section__item">instagram</li>
-                    <li class="social-section__item">fb</li>
+                    <li class="social-section__item"><a class="social-section__content svg-icon svg-icon--web"
+                            href="#!">Web</a></li>
+                    <li class="social-section__item"><a class="social-section__content svg-icon svg-icon--instagram"
+                            href="#!">Instagram</a></li>
+                    <li class="social-section__item"><a class="social-section__content svg-icon svg-icon--facebook"
+                            href="#!">Facebook</a></li>
                 </ul>
             </section>
         </footer>
