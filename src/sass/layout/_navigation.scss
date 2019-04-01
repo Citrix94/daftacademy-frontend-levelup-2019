@@ -45,49 +45,28 @@
 
 @media (max-width: 1300px) {
     .page-navigation {
-        display: none;
-        position: fixed;
-        top: 0;
-        right: 0;
-        width: 100vw;
-        height: 100vh;
-        background: $color-background-light-green;
-        z-index: $zindex-mobile-menu;
-
         &__items {
-            display: flex;
-            flex-direction: column;
+            flex-wrap: wrap;
             justify-content: center;
-            align-items: center;
-            width: 100vw;
-            height: 100vh;
-            padding: 0;
         }
-
+    
         &__item {
-            margin: 15px;
-            font-size: $font-size-menu-item-mobile;
-            font-weight: 600;
-
+            margin: 20px 50px 0 0;
+            flex-wrap: nowrap;
+    
             &:last-child {
-                margin: 15px;
-            }
-        }
-
-        &__link {
-            &:before {
-                width: 0;
-                height: 0;
+                margin: 20px 0 0 0;
             }
         }
     }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 768px) {
 
     .page-navigation {
-        &__item {
-            font-size: $font-size-menu-item-mobile-small;
+        &__items {
+            padding: 95px 0 0px 0px;
+            flex-direction: column;
         }
     }
 }

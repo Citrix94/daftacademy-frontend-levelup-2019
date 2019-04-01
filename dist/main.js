@@ -95,30 +95,32 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _js_mobileMenu_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/mobileMenu.js */ "./src/js/mobileMenu.js");
-/* harmony import */ var _js_mobileMenu_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_js_mobileMenu_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _js_script_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/script.js */ "./src/js/script.js");
 /* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sass/main.scss */ "./src/sass/main.scss");
 /* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_sass_main_scss__WEBPACK_IMPORTED_MODULE_1__);
 
 
+Object(_js_script_js__WEBPACK_IMPORTED_MODULE_0__["default"])();
 
 /***/ }),
 
-/***/ "./src/js/mobileMenu.js":
-/*!******************************!*\
-  !*** ./src/js/mobileMenu.js ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./src/js/script.js":
+/*!**************************!*\
+  !*** ./src/js/script.js ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-var mobileButtonHamburger = document.querySelector('.mobile-button--hamburger');
-
-function toggleMobileMenu() {
-  var navigation = document.querySelector('.page-navigation');
-  navigation.style.display = '';
-}
-
-mobileButtonHamburger.addEventListener('click', toggleMobileMenu());
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (function () {// const { body } = document;
+  // const div = document.createElement('div');
+  // const h1 = document.createElement('h1');
+  // h1.innerText = 'Hello World!';
+  // div.appendChild(h1);
+  // body.appendChild(div);
+});
+;
 
 /***/ }),
 

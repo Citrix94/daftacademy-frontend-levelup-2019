@@ -4,7 +4,6 @@
     letter-spacing: 1.4px;
     color: $color-text-light-blue;
     display: flex;
-    z-index: $zindex-social;
 
     &__items {
         display: flex;
@@ -26,21 +25,6 @@
     margin: 0 0 0 15px;
     opacity: 0.4;
     transition: 0.2s;
-
-    &--web {
-        background: url(/img/dribble.svg);
-        background-size: 16px 16px;
-    }
-
-    &--instagram {
-        background: url(/img/instagram.svg);
-        background-size: 16px 16px;
-    }
-
-    &--facebook {
-        background: url(/img/facebook.svg);
-        background-size: 16px 16px;
-    }
 
     &:hover {
         opacity: 1;

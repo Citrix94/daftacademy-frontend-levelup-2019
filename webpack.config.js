@@ -58,7 +58,8 @@ module.exports = {
                     {
                         loader: 'sass-loader',
                         options: {
-                            sourceMap: isProduction
+                            sourceMap: isProduction,
+                            sourceMapContents: false
                         }
                     },
                 ]
